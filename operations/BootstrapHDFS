@@ -1,0 +1,5 @@
+0 * * * * root cd /home/rakesh.kb/BootstrapHDFS && python -m poller.get_file_counts
+0/15 * * * * root cd /home/rakesh.kb/BootstrapHDFS && python -m poller.get_hdfs_usage_details
+0 * * * * root cd /home/rakesh.kb/BootstrapHDFS && python -m poller.get_user_platform_quota
+0 * * * * root cd /home/rakesh.kb/BootstrapHDFS && python -m poller.get_user_yoda_quota
+0 * * * * root cd /home/rakesh.kb/BootstrapHDFS && python -m poller.get_user_yoda_warehouse_quota
